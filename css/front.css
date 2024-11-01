@@ -1,0 +1,512 @@
+#service_timings {
+    float: left;
+    padding:10px;
+    background:#ffffff;
+}
+
+
+#service_timings a:link {
+    border: 1px solid #DDD;
+    color: #000;
+    font-size:11px;
+    padding-top:7px;
+
+   
+}
+#service_timings a:hover {
+    border: 1px solid #DDD;
+    color: #000 !important;
+    font-size: 11px;
+    padding-top:7px;
+    background-color: #f90;
+
+}
+#service_timings a.hourschoice_res1
+{
+	border: 1px solid #DDD;
+    color: #000;
+    font-size:11px;
+    padding-top:7px;
+
+	background-color: #eee;
+	
+}
+
+
+.hour_selected {
+    border: 1px solid #DDD;
+     color: #FFFFFF !important;
+    font-size:11px;
+    padding-top:7px;
+ 
+	background-color:#f90;
+	display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 54px;
+}
+
+.roomcalendar td {
+    border-spacing: 2px;
+}
+input[type="submit"] {
+    background-attachment: scroll;
+    background-color: transparent;
+    
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #FFFFFF;
+ 
+   
+    font-size: 11px;
+    height: 28px;
+   
+    text-align: center;
+   
+    width: 75px;
+}
+#content .roomsdetails .wrapbutton input {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+#content .roomsdetails-full .wrapbutton input {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+#content .wrapbutton input {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.wrapbutton {
+    float: right;
+}
+input[type="submit"] {
+    color: #FFFFFF;
+    
+    padding-bottom: 4px;
+}
+#content .checkoutrow input {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+#overlay {
+  
+    display: none;
+    height: 2000px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10300;
+}
+.noavailableimg {
+    float: left;
+    height: 53px;
+    width: 54px;
+}
+.leftnoavailability {
+    float: left;
+    height: 53px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 54px;
+}
+.leftnoavailabilitystep2 {
+    float: left;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 80px;
+}
+.noavailabletext {
+    color: red;
+    float: right;
+    font-size: 16px;
+    line-height: 53px;
+    margin-right: 10px;
+}
+.centeravailability {
+    float: right;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 600px;
+}
+.centeravailabilitysummary {
+    float: right;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    width: 400px;
+}
+.nextstep {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 50px;
+    padding-left: 30px;
+}
+.centeravailability p {
+    margin-bottom: 12px;
+}
+.centeravailability h1, .centeravailability h2 {
+    margin-bottom: 20px;
+}
+.popup_restaurant {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    color: #232323;
+    font-size: 13px;
+    left: 50%;
+    margin: 0 auto 0 -379px;
+    position: absolute;
+    right: auto;
+    top: 50px;
+    width: 785px;
+    z-index: 30301;
+}
+.h2_restaurant {
+    color: #7AB5D3 !important;
+    
+    font-size: 34px !important;
+    font-weight: normal !important;
+    line-height: 40px;
+/*    padding-left: 90px !important;*/
+    padding-top: 0 !important;
+    position: inherit !important;
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+}
+.h2_restaurant span {
+    float: right;
+}
+#contentpopup_restaurant, #contentpopup_restaurant2, #contentpopup_restaurant3 {
+    
+    margin: 15px 15px 15px 12px;
+}
+.sep_restaurant {
+    background-color: #6C6C6C;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+    margin-bottom: 15px;
+    margin-top: 32px;
+}
+.sep2_restaurant {
+    background-color: #6C6C6C;
+    font-size: 1px;
+    height: 1px;
+    line-height: 1px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.color1_restaurant {
+    color: #2B2C2E;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.color2_restaurant {
+    color: #73A505;
+}
+.clear_restaurant {
+    clear: both;
+}
+
+.date_restaurant {
+/*    border-top: 1px solid #C5C5C5;*/
+    background-color: white;
+    float: left;
+   
+    padding: 15px;
+    width: 210px;
+  
+}
+
+.date_restaurant2 {
+/*    border-top: 1px solid #C5C5C5;*/
+    background-color: white;
+    float: left;
+    margin-top: 10px;
+    padding: 0px;
+    width: 210px;
+ 
+}
+.dinner_restaurant {
+    margin-top: 15px;
+}
+.table_res {
+    border-top: 1px solid #C5C5C5;
+    margin-top: 15px;
+}
+.hourschoice_res {
+    color: #000000;
+    display: block;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 54px;
+}
+.hourschoice_res1 {
+    color: white !important;
+    cursor: default;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 7px;
+    margin-right: 10px;
+    margin-top: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 54px;
+}
+
+.hourschoice_res a:link {
+    color: #000000;
+}
+.hourschoice_res:hover, .activehourschoice_res {
+    
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    height: 26px;
+}
+.selectperson_res {
+    border-top: 1px solid #C5C5C5;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+.close_res {
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    top: 10px;
+}
+.nextstep_res {
+    clear: both;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    margin-top: 60px;
+    text-decoration: none;
+}
+.nextstepdisable_res {
+    clear: both;
+    float: right;
+    font-weight: bold;
+    margin-top: 60px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+.prevstep_res2 {
+    float: left;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.nextstep_res2 {
+    float: right;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 20px !important;
+    text-decoration: none;
+}
+.marker_res {
+    border: 1px solid #C5C5C5;
+    font-size: 13px;
+    height: 40px;
+    margin: 10px 0;
+    width: 750px;
+}
+.hourschoicedel_res .hourschoice_res {
+    opacity: 0.2;
+}
+.hourschoicedel_res .hourschoice_res:hover {
+    color: inherit;
+    cursor: default;
+}
+label.color1_res {
+    margin: 0;
+    width: 120px;
+}
+.formstep2 {
+    float: left;
+    padding-left: 27px;
+    padding-right: 5px;
+}
+.nextstepbuttom {
+    background: url("img/valider.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 48px;
+    margin-top: -25px;
+    width: 194px;
+}
+del {
+    color: #999999;
+    font-style: italic;
+}
+.img_res {
+    margin-right: 10px;
+    margin-top: -2px;
+    vertical-align: middle;
+}
+#stepimg_res {
+    margin-top: -15px;
+    position: absolute;
+}
+.item_res {
+    color: #B00000;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.item_res b {
+    color: #464646;
+    font-weight: bold;
+}
+.table_res {
+    border-top: 1px solid #C5C5C5;
+}
+.input_res {
+    border: 1px solid #C5C5C5;
+    padding: 3px;
+}
+.customItem {
+}
+#itemDetails1, #itemDetails2, #itemDetails3, #itemDetails4, #itemDetails5 {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.removeFields {
+    color: red;
+}
+.addMoreFields {
+    color: green;
+}
+.contentcalendar_res {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    overflow: visible;
+    width: 210px;
+}
+.year_res {
+    border: 1px solid #DDDDDD;
+    color: black;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+.year_res img {
+    border: 3px solid #F1F1F1;
+}
+.year_res a {
+    color: #000;
+  
+    font-weight: bold;
+  
+}
+.navcalendar_res a {
+    color: #000000;
+    font-size: 11px;
+    text-decoration: none;
+}
+.daycalendar_res, .selectJour_Lafourchette {
+    margin-top: 2px;
+    padding: 0;
+    text-align: center;
+    width: 212px;
+    color: black;
+}
+.daycalendar_res span {
+    padding-right: 5px;
+}
+.day {
+    float: left;
+    height: 26px;
+    margin-right: 2px;
+    text-align: center;
+    width: 28px;
+}
+.dayspan_res {
+    border: 1px solid #F9F9F9;
+    display: block;
+    float: left;
+    height: 26px;
+    width: 26px;
+}
+.selectday_res a, .selectday_res .dayspan_res {
+    border: 1px solid #5C5A5D;
+    color: #000000;
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    height: 26px;
+    line-height: 22px;
+    margin: 1px;
+    text-align: center;
+    text-decoration: none;
+    width: 26px;
+}
+.activedate_res {
+    color: #B21D43 !important;
+    text-decoration: underline !important;
+}
+#popup_bottom {
+    background-color: #CED0CF;
+    border: 1px none;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+    padding: 15px;
+}
+#popup_bottom_left {
+    float: left;
+    width: 242px;
+}
+#popup_bottom_left input {
+    
+    margin-bottom: 10px;
+    width: 207px;
+	font-size:11px;
+    
+    padding:6px;
+}
+
+#popup_bottom_left1 {
+    float: left; margin-left:0px;
+    width: 210px;
+}
+#popup_bottom_left1 input {
+    
+    margin-bottom: 10px;
+    width: 215px;
+	font-size:11px;
+    
+    padding:6px;
+}
+
+input {margin:0px; padding:0px;}
+
+#popup_bottom_right {
+    float: left;
+    margin-left: 10px;
+    width: 430px;
+	
+}
+

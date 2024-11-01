@@ -1,0 +1,840 @@
+.intro_holder {
+	margin: 0 18px 0px 1px;
+	background-color:white;
+
+}
+
+.intro_holder1 {
+	margin: 0 18px 0px 1px;
+	border-left:1px solid  #C0C0C0;
+	border-right:1px solid  #C0C0C0;
+	border-bottom:1px solid  #C0C0C0;
+	background-color:#FFFFFF;
+	margin-bottom:80px;
+	height:570px;
+}
+.intro_holder p {
+	
+	line-height: 20px;
+	padding: 20px 0;
+	font-size: 11px;
+	color: #555;
+
+}
+.intro_holder1 p {
+
+	line-height: 20px;
+	padding: 5px 0 0 25px;
+	font-size: 11px;
+	color: #555;
+
+}
+.intro_holder h3 {
+	float: left;
+	width: 250px;
+	font-size: 20px;
+	padding: 10px 0 0 0;
+	color: #000;
+}
+.intro_holder1 h2 {
+	float: left;
+	
+	font-size: 20px;
+	padding: 10px 0 0 25px;
+	color: #000;
+	
+}
+.intro_tab1 {
+	background: #f4f2f3;
+	height: 60px;
+	padding-top: 5px;
+
+}
+
+.intro_tab {
+	background: #f4f2f3;
+	height: 64px;
+	padding-bottom: 15px;
+}
+
+.intro_tab ul {
+	padding: 0;
+	margin: 0;
+	height: 65px;
+	background: url(../images/intro_heading_icons.png) no-repeat 0 0px;
+}
+
+.intro_tab ul.hours_page {
+	background: url(../images/intro_heading_icons.png) no-repeat 0 -192px;
+}
+
+.intro_tab ul.staff_page {
+	background: url(../images/intro_heading_icons.png) no-repeat 0 -64px;
+}
+
+.intro_tab ul.services_page {
+	background: url(../images/intro_heading_icons.png) no-repeat 0 -128px;
+}
+
+.intro_tab ul.done_page {
+	background: url(../images/intro_heading_icons.png) no-repeat 0 -256px;
+}
+
+.intro_tab ul li {
+	float: left;
+	
+	text-align: center;
+	padding: 20px 0 0px 0;
+	display: block;
+	color: #b6b6b6;
+	font-size: 12px;
+	text-shadow: 0px 1px #fff;
+}
+
+.intro_tab ul li.welcome {
+	width: 130Px;
+	font-size:11px;
+	
+}
+
+.intro_tab ul li.hours {
+	width: 135px;
+
+	font-size:11px;
+}
+
+.intro_tab ul li.staff {
+	width: 114px;
+
+	font-size:11px;
+}
+
+.intro_tab ul li.services {
+	width: 151px;
+	font-size:11px;
+}
+
+.intro_tab ul li.done {
+	width: 121px;
+	font-size:11px;
+}
+
+.intro_tab ul.welcome_page li.welcome,.intro_tab ul.hours_page li.hours,.intro_tab ul.staff_page li.staff,.intro_tab ul.services_page li.services,.intro_tab ul.done_page li.done
+	{
+	font-weight: bold;
+	color: #555;
+}
+
+.intro_welcome,.intro_done {
+	
+	padding: 7px 10px 0 29px;
+	height: 269px;
+}
+
+.intro_welcome h2,.intro_done h2 {
+	font-size: 24px;
+	width: 286px;
+	color: #000;
+	line-height: 1.2em;
+
+	margin-top:60px;
+}
+
+.intro_welcome h2 span {
+	color: #be000d;
+	font-weight: bold;
+}
+
+.lets_go {
+	float: left;
+	background: url(../images/global_btn.png) left -226px no-repeat;
+	height: 55px;
+	line-height: 53px;
+	color: #000;
+	padding: 0 45px;
+	width: 80px;
+	cursor: hand;
+	cursor:pointer;
+	border: none;
+
+	font-size:13px;
+}
+.lets_go:hover {
+	float: left;
+	background: url(../images/global_btn.png) left -286px no-repeat;
+}
+.lets_go:active {
+	float: left;
+	background: url(../images/global_btn.png) left -346px no-repeat;
+}
+/*************** Hours *************/
+.prev_nxt_btn {
+	float: left;
+	width: 120px;
+	margin-left:230px;
+}
+.back, .next {
+	width:60px;
+	line-height:30px;
+	height: 30px;
+	font-size:11px;
+	color:#000;
+
+	cursor: hand;
+	cursor:pointer;
+
+	font-size:12px;
+}
+.next {
+	float: right !important;
+	text-align: left;
+	background: url(../images/global_btn.png) left -529px no-repeat;
+	text-align: center;
+}
+.next:hover {
+	background: url(../images/global_btn.png) left -568px no-repeat;
+}
+.next:active {
+	background: url(../images/global_btn.png) left -608px no-repeat;
+}
+.back {
+	text-align: center;
+	background: url(../images/global_btn.png) left -410px no-repeat;
+	float: left;
+}
+.back:hover {
+	background: url(../images/global_btn.png) left -449px no-repeat;
+}
+.back:active {
+	background: url(../images/global_btn.png) left -489px no-repeat;
+}
+.intro_hours,.intro_staff,.intro_services {
+	padding: 18px 28px 0 29px;
+	
+	display: none;
+}
+
+
+/****** Staff ******/
+#intro_staff {
+	
+}
+
+#intro_staff_add {
+	display: none;
+}
+
+.intro_staff h3,.intro_services h3 {
+	padding: 10px 0px 5px 0px;
+	margin-bottom: 5px;
+}
+
+/************ Services ********/
+
+#currency_wrap .jqTransformSelectWrapper {
+	width: 200px !important;
+}
+.services_add_field .col4 span,
+.services_added .col4 span {
+	float:left;
+	display: block;
+	margin: 6px 5px 0 0;
+}
+.services_add_field td.col6 {
+	width: 90px;
+	
+}
+.services_add_field td.col6 .global_btn2_lt{
+	float: right;
+	margin-right: 0;
+}
+#intro_services {
+	
+}
+.services_add_field .col3 input {
+	width:68px !important;
+	margin-left: 10px;
+}
+
+#intro_services_add {
+	background: none;
+}
+
+/********* Done **********/
+.intro_done {
+	display: none;
+	background: url(../images/intro_done_bg.png) no-repeat right 15px;
+	padding: 18px 28px 0 29px;
+}
+
+.intro_done h3 {
+	padding: 10px 0 0px 0;
+}
+
+.intro_done .lets_go_btn {
+	margin: 30px 0 0 0;
+}
+
+.intro_done .close_window_btn span {
+	height: 30px;
+	padding: 2px 0 3px 0px;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	color: #000;
+	font-size: 12px;
+
+}
+
+.intro_done p {
+	width: 309px;
+}
+
+.intro_done .close_window_btn {
+	padding: 6px 15px 6px 15px;
+	line-height: 30px;
+	    	background:url(../images/global_btn_new.png) repeat-x 0px -60px;
+    border-top: solid 1px #ccc;
+	border-left:1px solid #bbb;
+	border-right:1px solid #bbb;
+	border-bottom:1px solid #a1a1a1;	cursor: pointer;
+	margin: 10px 0 0 0;
+	float: left;
+    filter: alpha(opacity=80);
+    opacity: 0.8;
+   
+}
+.intro_done .close_window_btn:hover {
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+.intro_done .close_window_btn:active {
+	background: url(../images/close_btn_h.png) repeat-x 0 0;
+}
+
+/*********** Login Page ********/
+#Login_Form_id {
+	margin: 0px;
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	height: 700px;
+}
+.login_wrapper {
+	margin: 60px auto 0 auto;
+	width: 1000px;
+	height:562px;
+	border:1px solid #b7b8b8;
+	
+	background:url(../images/login_wrapper_bg.png) no-repeat right bottom;
+	position:relative;
+}
+
+.login_wrapper h1 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 0 0 25px 0;
+	color: #000;
+	margin-right: 15px;
+}
+#login_header {
+	height: 63px;
+	padding: 15px 40px 0px 40px;
+	background: #333 url(../images/loginheader-bg.gif) repeat-x 0 0px;
+}
+
+.login_logo {
+	background:url(../images/logo.png) no-repeat 0px 0px;
+	width:138px;
+	height:44px;
+	float:left;
+	display:block;
+}
+.header_signup {
+    float: right;
+    padding-top: 6px;
+}
+.header_signup label {
+	float:left;
+	padding:10px 12px 0px 0px;
+	color:#fff;
+}
+.header_signup a {
+    float: left;
+    font-size: 14px;
+    text-decoration:none;
+}
+.login_content {
+	padding:38px 0px 0px 40px;
+	width:435px;
+}
+.login_content p {
+	font-size:13px;
+	line-height:24px;
+	color:#444;
+	padding-bottom:10px;
+}
+.login_content h2 {
+	font-size:24px;
+	color:#000;
+	padding:3px 0px 15px 0px;
+}
+.login_content .follow_us {
+	width:268px;
+	margin-top:24px;
+}
+.login_content .follow_us li {
+	height:48px;
+	background:url("../images/login_follow_us.png") no-repeat left 0px;
+	margin-bottom:22px;
+	cursor:pointer;
+}
+.login_content .follow_us li.twitter {
+	background:url("../images/login_follow_us.png") no-repeat left -70px;
+}
+.login_content .follow_us li.tumblr {
+	background:url("../images/login_follow_us.png") no-repeat left -140px;
+}
+
+.login_content .follow_us li a {
+	text-decoration:none;
+	width:200px;
+	height:48px;
+	padding:0px 0px 0px 66px;
+	display:block;
+	color:#444;
+}
+.login_content .follow_us li a span {
+	padding:10px 0px 4px 63px;
+	display:block;
+	/* background:url("../images/login_follow_us_span.png") no-repeat left 5px; */
+	height:21px;
+}
+
+.login_content .follow_us li.tumblr a span,
+.login_content .follow_us li.twitter a span {
+	font-size:10px;
+	margin-top:10px;
+	padding:0px 0px 0px 7px;
+	font-weight:bold;
+	width:115px;
+	height:22px;
+	line-height:22px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-web-kit-border-radius:4px;
+	cursor:pointer;
+	border:1px solid #c2c2c2;
+	color:#000;
+	
+	
+	 background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #d1d1d1) );
+    background:-moz-linear-gradient( center top, #ffffff 5%, #d1d1d1 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d1d1d1');
+    background-color:#ffffff;
+}
+.login_content .follow_us li.twitter a span {
+	width:115px;
+}
+.login_content .follow_us li.tumblr a span:hover { 
+	zoom: 1;
+	filter: alpha(opacity=85);
+	opacity: 0.85;
+}
+.login_content .follow_us li.tumblr a span code,
+.login_content .follow_us li.twitter a span code {
+	display:block;
+	width:14px;
+	height:15px;
+	background: url("../images/tumblr_icon.png") no-repeat 0px 6px;
+	float:left;
+}
+.login_content .follow_us li.twitter a span code {
+	background: url("../images/twitter_icon.png") no-repeat 0px 6px;
+		width:16px;
+	height:17px;
+}
+.green_btn {
+    background: url("../images/green-btn-bg.gif") repeat-x scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 4px #222222;
+    cursor: pointer;
+    display: block;
+    float: right;
+    position: relative;
+    z-index: 1000;
+}
+.green_btn span {
+    background: url("../images/loginArrow.png") no-repeat scroll 135px -35px transparent;
+    color: #EEEEEE;
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    height: 26px;
+    line-height: 22px;
+    padding: 6px 35px 0 15px;
+    text-shadow: 0 1px #188200;
+    text-transform: uppercase;
+}
+
+.green_btn span {
+	background: url("../images/loginArrow.png") no-repeat scroll 155px -35px transparent\0/;
+	}
+
+.login_holder {
+	width: 351px;
+	border: 1px solid #9a9a9a;
+	background: #fff;
+	color: #000;
+	position:absolute;
+	right:58px;
+	top:115px;
+}
+.login_holder h3 {
+	padding:30px 0px 19px 28px;
+	font-size:15px;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+	background: url(../images/login_h3_bg.png) repeat-x 0px 0px;
+}
+.login_holder ul {
+		padding: 25px 28px 54px 28px;
+}
+.login_holder label {
+	font-weight: bold;
+	font-size: 13px;
+	margin: 0 0 6px 0;
+	display: block;
+	color: #000;
+}
+
+.login_holder p {
+	padding: 4px 0 22px 0;
+	line-height: 20px;
+}
+
+.login_holder input {
+	font-size: 13px;
+}
+
+.login_holder .em,.login_holder .pw {
+	width: 281px;
+	padding: 8px 6px;
+	background: url(/images/bookappt/form_btn_bg.gif) repeat-x;
+	border: 1px solid #AAAAAA;
+	color: #000;
+	margin: 0 0 13px 0;
+	display: block;
+}
+
+.login_holder .em:focus,.login_holder .pw:focus {
+	border: 1px solid #1490E7;
+	box-shadow: 0 0 3px #1490E7;
+}
+
+.sign_in li {
+	clear: both;
+}
+
+.sign_in .check_label {
+	float: left;
+	font-weight: normal;
+	font-size: 12px;
+	margin: 4px 0px 0px 1px;
+}
+
+.sign_in .global_btn2_lt {
+	margin: 8px 0 24px 0;
+	padding : 0;
+}
+.sign_in .rem {
+	float:left;
+	margin:16px 0px 0px 20px;
+}
+.fg_pw .global_btn2_lt {
+	margin: 0px 0 37px 0;
+}
+
+
+
+li.last {
+	background: url(../images/loginpage_grid_line.jpg) repeat-x 0 0;
+	padding: 17px 0 0 0;
+}
+
+li.last span {
+	color: #0080c2;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+li.last span:hover {
+	text-decoration: none;
+}
+
+.fg_pw {
+	display: none;
+}
+
+.login_footer {
+	text-align: center;
+	margin: 18px 0 0 0;
+	color: #000;
+	position:absolute;
+	bottom:-37px;
+	left:0px;
+}
+
+.login_footer a {
+	color: #000;
+	text-decoration:none;
+}
+.login_footer a:hover {
+	text-decoration:underline;
+}
+input.error_field {
+	background: #ffd3d3 !important;
+	border: 1px solid #f00 !important;
+}
+.delete_holder {
+	width: 25px; 
+	position: absolute; 
+	top: 0px;
+	right: 5px;
+}
+.col6 .delete_holder {
+	right: 15px;
+	position:inherit !important;
+}
+.delete_holder .delete {
+	margin: 0 !important;
+	height: 24px;
+	padding: 0;
+	width: 25px !important;
+    background: url(../images/intro_icons.png) no-repeat scroll 0px -84px transparent !important;
+}
+.services_added tr:hover .delete_holder, .added_staff tr:hover .delete_holder{
+	display: block;
+}
+
+/*code.light-gray,
+code.green,
+code.red,
+code.light-blue,
+code.maroon,
+code.deep-sky-blue,
+code.violet,
+code.yellow,
+code.orange {
+	top: 10px;
+	position: absolute;
+}*/
+
+.added_staff .delete_popup, .services_added .delete_popup {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #C4C4C4;
+	color: #000000;
+	display: none;
+	margin: 0px;
+	padding: 10px;
+	position: absolute;
+	z-index: 100;
+	top: 21px;
+	right: 40px;
+}
+
+.delete_popup .cancel {
+	background: none repeat scroll 0 0 transparent;
+	cursor: pointer;
+	float: left;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 8px 0 0 10px;
+	text-decoration: underline;
+	text-indent: 0;
+}
+
+.delete_popup .cancel:hover {
+	text-decoration: none;
+}
+
+.delete_popup .global_btn1_lt {
+	margin: 8px 0px 0px 20px;
+}
+
+.delete_popup .right_arrow {
+	background: url(../images/icons.png) no-repeat 0 -528px;
+	height: 22px;
+	right: -12px;
+	position: absolute;
+	top: 24px;
+	width: 13px;
+	z-index: 200;
+}
+.delete_popup .global_btn {
+    float: left;
+    margin: 8px 0 0;
+    width: 38px;
+}
+.intro_holder .delete_popup {
+	margin: -46px 0 0 -172px;
+	font-size: 12px;
+
+}
+
+#intro_staff_add .added_staff input.fname:focus,#intro_staff_add .services_added input.fname:focus
+	{
+	border: 1px solid #1490E7;
+	box-shadow: 0 0 3px #1490E7;
+	padding: 0 6px 0 25px !important;
+	background: #fff !important;
+}
+
+#intro_staff_add .added_staff input.fname:hover,#intro_staff_add .services_added input.fname:hover
+	{
+	border: 1px solid #CDCDCD;
+}
+
+#intro_staff_add .added_staff .fname {
+	padding: 1px 7px 1px 26px;
+}
+
+.timezone1_tr {
+	background: #f7f7f7;
+	padding: 5px 0 6px !important;
+	margin-bottom: 5px;
+}
+
+/**************** 13-12-2011 ****************/
+.services_added  tr td {
+	vertical-align:middle;	
+}
+.services_added .clrs code {
+	margin:0px 4px 2px 13px;
+}
+.services_added .clr_palette code {
+	margin:5px 4px 2px 3px !important;
+}
+.intro_holder .clr_palette {
+	margin:27px 0px 0px 13px;
+}
+
+/*
+Facebook button alignment style
+*/
+
+.login_content .follow_us li.fb,
+.login_content .follow_us li.twitter {
+	position: relative;
+}
+.login_content .follow_us li.fb b,
+.login_content .follow_us li.twitter b  {
+	padding-left:67px;
+}
+.login_content .follow_us li.fb .facebook_like,
+.login_content .follow_us li.twitter .twitter_follow {
+	left: 67px;
+	position: absolute;
+	top: 20px;
+}
+
+/*Twitter button alignmetn twitter_follow*/
+
+.intro_plan_select_holder{
+	width: 270px;
+	height: auto;
+}
+
+.welcome_desc{
+	padding-top: 10px;
+	color: #000000;
+	font-size: 12px;
+	margin-bottom: 20px;
+	padding: 15px 0px;
+	display: block;
+}
+.plan_holder{
+	width: 100%;
+	padding: 15px 10px;
+	background-color: #f4f7f7;
+	border: solid 1px #c5c5c5;
+	border-left: none;
+	border-top: none;
+	margin-top: 5px;
+}
+
+.plan_holder .plan_det_label{
+	float: left;
+	padding: 7px 0px 0px 18px;
+	font-size: 11px;
+}
+
+.plan_holder span label{
+	float: left;
+	padding-top: 3px;
+	color: black;
+	font-size: 13px;
+}
+
+
+/* Following for Error pages */
+.errorPage .login_wrapper
+{
+	background : url("../images/error_wrapper_bg.png") left 70px no-repeat;
+}
+.errorPage .login_content
+{
+	width: 570px;
+}
+
+.errorPage .login_content h2
+{
+	font-size : 36px;
+	font-weight : 600;
+}
+
+.errorPage .list
+{
+	display : block;
+	margin : 30px 0 0 0;
+	padding : 0;
+}
+
+.errorPage .list li
+{
+	height : 19px;
+	margin-bottom : 20px;
+	padding-left : 30px; 
+}
+
+.errorPage .list li a
+{
+	color : #000000;
+	font-size : 18px;
+}
+
+.errorPage .list li a span
+{
+	font-weight : bold;
+}
+
+.errorPage .list li.first
+{
+	background : url('../images/error_page_arrows.png') 0 2px no-repeat;
+}
+.errorPage .list li.second
+{
+	background : url('../images/error_page_arrows.png') 0 -17px no-repeat;
+}
+.errorPage .list li.third
+{
+	background : url('../images/error_page_arrows.png') 0 -34px no-repeat;
+}
+.buttons {
+height: 28px;
+width:60px;
+-moz-border-radius-bottomright: 50px 25px;
+border-bottom-right-radius: 50px 25px;
+cursor:pointer;
+} 

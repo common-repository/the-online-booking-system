@@ -1,0 +1,1 @@
+<a href="http://www.wp-online-booking-system.com" target="_blank"><img src="<?php echo $url;?>images/export_pro.jpg" alt="" style="margin:20px 20px 20px 10px"/></a>
